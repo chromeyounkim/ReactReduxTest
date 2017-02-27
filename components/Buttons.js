@@ -1,6 +1,6 @@
 import React from 'react';
 import {connect}  from 'react-redux';
-import {sum, substract } from '../actions';
+import {sum, subtract } from '../actions';
 
 class Buttons extends React.Component {
    render() {

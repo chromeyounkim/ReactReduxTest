@@ -12,7 +12,7 @@ module.exports = {
    },
 
    module: {
-      loaders: [
+      loaders: [{
          test: /\.js$/,
          loader: 'babel',
          exclude: /node_modules/,
@@ -20,6 +20,6 @@ module.exports = {
             cacheDirectory: true,
             presets: ['es2015', 'react']
          }
-      ]
+      }]
    }
 };

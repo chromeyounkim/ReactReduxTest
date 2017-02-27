@@ -3,9 +3,9 @@ import {connect} from 'react-redux';
 
 class Counter extends React.Component {
    render() {
-     return {
+     return (
        <h1> VALUE: {this.props.value} </h1>
-    };
+    );
    }
 
 }

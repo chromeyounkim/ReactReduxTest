@@ -14,11 +14,9 @@ export function subtract() {
     };
  }
 
-export function set_diff(value) {
+export function setDiff(value) {
     return {
       type: SET_DIFF,
       diff: value
     };
 }
-
-

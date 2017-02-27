@@ -16,10 +16,13 @@ class Option extends React.Component {
    }
 
   onChangeDiff(e) {
-     if (isNaN(e.target.value) {
+     if (isNaN(e.target.value)) {
        return;
      }
-     this.setState = {diff: e.target.value};
+     
+  
+     if (e.target.value == '') this.setState({diff: '0'})
+     this.setState({diff: e.target.value});
      this.props.onUpdateDiff(parseInt(e.target.value));
   }
    
