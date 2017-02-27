@@ -28,6 +28,6 @@ const extra = (state={value: 'TBD'}, action) => {
   }
 };
 
-const app = combineReducers({counter, extra});
+const arithmeticApp = combineReducers({counter, extra});
 
-export default app;
+export default arithmeticApp;
